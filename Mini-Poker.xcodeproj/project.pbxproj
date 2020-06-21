@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D731C2A52270BBC10046769B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D731C2A42270BBC10046769B /* AppDelegate.m */; };
+		D731C2AA2270BBC10046769B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D731C2A92270BBC10046769B /* Assets.xcassets */; };
+		D731C2AD2270BBC10046769B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D731C2AB2270BBC10046769B /* Main.storyboard */; };
+		D731C2B02270BBC10046769B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D731C2AF2270BBC10046769B /* main.m */; };
+		D731C2C42270BBDE0046769B /* CardsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D731C2B72270BBDC0046769B /* CardsHelper.m */; };
+		D731C2C52270BBDE0046769B /* card_back.png in Resources */ = {isa = PBXBuildFile; fileRef = D731C2B82270BBDD0046769B /* card_back.png */; };
+		D731C2C62270BBDE0046769B /* AIPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D731C2BA2270BBDD0046769B /* AIPlayer.m */; };
+		D731C2C72270BBDE0046769B /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D731C2BB2270BBDD0046769B /* CardViewController.m */; };
+		D731C2C82270BBDE0046769B /* PokerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D731C2BD2270BBDD0046769B /* PokerHelper.m */; };
+		D731C2C92270BBDE0046769B /* BetSliderController.m in Sources */ = {isa = PBXBuildFile; fileRef = D731C2C12270BBDE0046769B /* BetSliderController.m */; };
+		D731C2CA2270BBDE0046769B /* PokerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D731C2C22270BBDE0046769B /* PokerController.m */; };
+		DCA986DE2271CD46007CC350 /* bet_chip.png in Resources */ = {isa = PBXBuildFile; fileRef = DCA986DD2271CD45007CC350 /* bet_chip.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D731C2A02270BBC10046769B /* Mini-Poker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mini-Poker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D731C2A32270BBC10046769B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D731C2A42270BBC10046769B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D731C2A92270BBC10046769B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D731C2AC2270BBC10046769B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D731C2AE2270BBC10046769B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D731C2AF2270BBC10046769B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D731C2B12270BBC10046769B /* MiniPoker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MiniPoker.entitlements; sourceTree = "<group>"; };
+		D731C2B72270BBDC0046769B /* CardsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardsHelper.m; sourceTree = "<group>"; };
+		D731C2B82270BBDD0046769B /* card_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_back.png; sourceTree = "<group>"; };
+		D731C2B92270BBDD0046769B /* CardsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardsHelper.h; sourceTree = "<group>"; };
+		D731C2BA2270BBDD0046769B /* AIPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIPlayer.m; sourceTree = "<group>"; };
+		D731C2BB2270BBDD0046769B /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
+		D731C2BC2270BBDD0046769B /* BetSliderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BetSliderController.h; sourceTree = "<group>"; };
+		D731C2BD2270BBDD0046769B /* PokerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokerHelper.m; sourceTree = "<group>"; };
+		D731C2BE2270BBDD0046769B /* PokerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokerController.h; sourceTree = "<group>"; };
+		D731C2BF2270BBDD0046769B /* AIPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIPlayer.h; sourceTree = "<group>"; };
+		D731C2C02270BBDD0046769B /* PokerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokerHelper.h; sourceTree = "<group>"; };
+		D731C2C12270BBDE0046769B /* BetSliderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BetSliderController.m; sourceTree = "<group>"; };
+		D731C2C22270BBDE0046769B /* PokerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokerController.m; sourceTree = "<group>"; };
+		D731C2C32270BBDE0046769B /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
+		DCA986DD2271CD45007CC350 /* bet_chip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bet_chip.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D731C29D2270BBC10046769B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D731C2972270BBC10046769B = {
+			isa = PBXGroup;
+			children = (
+				D731C2A22270BBC10046769B /* MiniPoker */,
+				D731C2A12270BBC10046769B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D731C2A12270BBC10046769B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D731C2A02270BBC10046769B /* Mini-Poker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D731C2A22270BBC10046769B /* MiniPoker */ = {
+			isa = PBXGroup;
+			children = (
+				D731C2A32270BBC10046769B /* AppDelegate.h */,
+				D731C2A42270BBC10046769B /* AppDelegate.m */,
+				D731C2BF2270BBDD0046769B /* AIPlayer.h */,
+				D731C2BA2270BBDD0046769B /* AIPlayer.m */,
+				D731C2BC2270BBDD0046769B /* BetSliderController.h */,
+				D731C2C12270BBDE0046769B /* BetSliderController.m */,
+				DCA986DD2271CD45007CC350 /* bet_chip.png */,
+				D731C2B82270BBDD0046769B /* card_back.png */,
+				D731C2B92270BBDD0046769B /* CardsHelper.h */,
+				D731C2B72270BBDC0046769B /* CardsHelper.m */,
+				D731C2C32270BBDE0046769B /* CardViewController.h */,
+				D731C2BB2270BBDD0046769B /* CardViewController.m */,
+				D731C2BE2270BBDD0046769B /* PokerController.h */,
+				D731C2C22270BBDE0046769B /* PokerController.m */,
+				D731C2C02270BBDD0046769B /* PokerHelper.h */,
+				D731C2BD2270BBDD0046769B /* PokerHelper.m */,
+				D731C2A92270BBC10046769B /* Assets.xcassets */,
+				D731C2AB2270BBC10046769B /* Main.storyboard */,
+				D731C2AE2270BBC10046769B /* Info.plist */,
+				D731C2AF2270BBC10046769B /* main.m */,
+				D731C2B12270BBC10046769B /* MiniPoker.entitlements */,
+			);
+			path = MiniPoker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D731C29F2270BBC10046769B /* Mini-Poker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D731C2B42270BBC10046769B /* Build configuration list for PBXNativeTarget "Mini-Poker" */;
+			buildPhases = (
+				D731C29C2270BBC10046769B /* Sources */,
+				D731C29D2270BBC10046769B /* Frameworks */,
+				D731C29E2270BBC10046769B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mini-Poker";
+			productName = MiniPoker;
+			productReference = D731C2A02270BBC10046769B /* Mini-Poker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D731C2982270BBC10046769B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = devExtentions;
+				TargetAttributes = {
+					D731C29F2270BBC10046769B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D731C29B2270BBC10046769B /* Build configuration list for PBXProject "Mini-Poker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D731C2972270BBC10046769B;
+			productRefGroup = D731C2A12270BBC10046769B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D731C29F2270BBC10046769B /* Mini-Poker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D731C29E2270BBC10046769B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D731C2AA2270BBC10046769B /* Assets.xcassets in Resources */,
+				DCA986DE2271CD46007CC350 /* bet_chip.png in Resources */,
+				D731C2C52270BBDE0046769B /* card_back.png in Resources */,
+				D731C2AD2270BBC10046769B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D731C29C2270BBC10046769B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D731C2C42270BBDE0046769B /* CardsHelper.m in Sources */,
+				D731C2C92270BBDE0046769B /* BetSliderController.m in Sources */,
+				D731C2C72270BBDE0046769B /* CardViewController.m in Sources */,
+				D731C2C62270BBDE0046769B /* AIPlayer.m in Sources */,
+				D731C2C82270BBDE0046769B /* PokerHelper.m in Sources */,
+				D731C2B02270BBC10046769B /* main.m in Sources */,
+				D731C2CA2270BBDE0046769B /* PokerController.m in Sources */,
+				D731C2A52270BBC10046769B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D731C2AB2270BBC10046769B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D731C2AC2270BBC10046769B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D731C2B22270BBC10046769B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D731C2B32270BBC10046769B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D731C2B52270BBC10046769B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MiniPoker/MiniPoker.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MiniPoker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dinodev90.Mini-Poker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D731C2B62270BBC10046769B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MiniPoker/MiniPoker.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MiniPoker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dinodev90.Mini-Poker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D731C29B2270BBC10046769B /* Build configuration list for PBXProject "Mini-Poker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D731C2B22270BBC10046769B /* Debug */,
+				D731C2B32270BBC10046769B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D731C2B42270BBC10046769B /* Build configuration list for PBXNativeTarget "Mini-Poker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D731C2B52270BBC10046769B /* Debug */,
+				D731C2B62270BBC10046769B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D731C2982270BBC10046769B /* Project object */;
+}
